@@ -60,6 +60,8 @@ Use train.py to start training. The following are the arguments that can be pass
 
 Department of Biomedical Engineering, PSG College of Technology
 
+**Publication URL** - https://www.irjet.net/archives/V6/i10/IRJET-V6I1009.pdf 
+
 **Contact Details** - contactabhinaav@gmail.com, https://www.linkedin.com/in/abhinaav-ramesh/ 
 
 
