@@ -63,6 +63,13 @@ The following is the Predictions obtained for an image in validation data.
 The performance metrics of the trained model after 1660 epochs are represented in the following table:
 
 ![Alt text](PAP_Results/Performance_Metrics.PNG?raw=true "Performance Metrics")
+
+![Alt text](PAP_Results/Overall_Accuracy.jpeg?raw=true "Accuracy Plot")
+
+![Alt text](PAP_Results/Overall_Accuracy.jpeg?raw=true "Accuracy Plot")
+
+![Alt text](PAP_Results/Accuracy_Within Class.png?raw=true "Within Class Accuracy")
+
 # Team
 
 **Abhinaav Ramesh, Akshaya Sapthasri M, Anusha V, Nivetha S**
