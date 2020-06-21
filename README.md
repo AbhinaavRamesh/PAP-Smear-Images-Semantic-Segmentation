@@ -1,9 +1,4 @@
 # Segmentation of Nucleus and Cytoplasm from Unit Papanicolaou Smear Images using Deep Semantic Networks
-**Team**
-
-Abhinaav Ramesh, Akshaya Sapthasri M, Anusha V, Nivetha S
-
-Department of Biomedical Engineering, PSG College of Technology
 
 Pap smear images require very efficient segmentation techniques to improve the prediction of carcinoma. Conventional techniques are not efficient for the entire dataset. The proposed technique, segmentation using semantic network, highlights the effective use of network architecture, available data, optimization algorithms and high- end computing; improving the efficiency in classifying cellular components, the nucleus and cytoplasm, in the unit pap image. High accuracy actually representing the human perception of vision has been achieved. 
 
@@ -60,7 +55,9 @@ Use train.py to start training. The following are the arguments that can be pass
 
 17. **--frontend**, default="ResNet101", 'The frontend you are using. See frontend_builder.py for supported models'
 
+**Abhinaav Ramesh, Akshaya Sapthasri M, Anusha V, Nivetha S**
 
+Department of Biomedical Engineering, PSG College of Technology
 
 **Reference CodeBase**
 https://github.com/GeorgeSeif/Semantic-Segmentation-Suite.git
