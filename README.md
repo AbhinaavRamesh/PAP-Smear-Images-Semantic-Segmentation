@@ -16,7 +16,6 @@ The available database is enlarged by means of horizontal and vertical flipping 
 # Team
 
 Abhinaav Ramesh, Akshaya Sapthasri M, Anusha V, Nivetha S
-E-Mail: contactabhinaav@gmail.com
 
 # Reference CodeBase
 https://github.com/GeorgeSeif/Semantic-Segmentation-Suite.git
