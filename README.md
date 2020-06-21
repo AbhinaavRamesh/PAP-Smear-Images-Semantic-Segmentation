@@ -54,6 +54,15 @@ Use train.py to start training. The following are the arguments that can be pass
 
 17. **--frontend**, default="ResNet101", 'The frontend you are using. See frontend_builder.py for supported models'
 
+# Results
+
+The following is the Predictions obtained for an image in validation data.
+
+![Alt text](PAP_Results/Result1.png?raw=true "Prediction - Epoch 1660")
+
+The performance metrics of the trained model after 1660 epochs are represented in the following table:
+
+![Alt text](PAP_Results/Performance_Metrics.PNG?raw=true "Performance Metrics")
 # Team
 
 **Abhinaav Ramesh, Akshaya Sapthasri M, Anusha V, Nivetha S**
