@@ -1,11 +1,10 @@
-# Segmentation of Nucleus and Cytoplasm from Unit Papanicolaou Smear Images using Deep Semantic Networks
-
+# PAP-Semantic-Segmentation
+Segmentation of Nucleus and Cytoplasm from Unit Papanicolaou Smear Images using Deep Semantic Networks 
 Pap smear images require very efficient segmentation techniques to improve the prediction of carcinoma. Conventional techniques are not efficient for the entire dataset. The proposed technique, segmentation using semantic network, highlights the effective use of network architecture, available data, optimization algorithms and high- end computing; improving the efficiency in classifying cellular components, the nucleus and cytoplasm, in the unit pap image. High accuracy actually representing the human perception of vision has been achieved. 
 
 
 # Papnicolaou Smear Images -PAP Smear Test
-A Pap (-anicoalau smear is used to screen for cervical cancer. The presence of pre-cancerous or cancerous cells on the cervix can be detected using this test. A precancerous cell is one in which the genetic information has been modified and exhibits abnormal cell division. A cancerous cell is one in which the cell is devoid of cytoplasm. This procedure is usually carried out in women who are in the age group of 21- 65 years. The pap cells are obtained from different areas of the cervix using cyto-brush, cotton stick or a wooden stick. 
-The cells are mostly derived from columnar epithelium and the squamous epithelium. The cervix has two parts – the upper part the columnar epithelium and the lower part the squamous epithelium. The specimen is smeared onto a glass slide and is stained using Papanicolaou method so that the components of the cells are highlighted with specific colours.The Pap smear database consists of 917 such microscopic images collected for different cases from different locations. 
+A Pap (-anicoalau smear is used to screen for cervical cancer. The presence of pre-cancerous or cancerous cells on the cervix can be detected using this test. A precancerous cell is one in which the genetic information has been modified and exhibits abnormal cell division. A cancerous cell is one in which the cell is devoid of cytoplasm. This procedure is usually carried out in women who are in the age group of 21- 65 years. The pap cells are obtained from different areas of the cervix using cyto-brush, cotton stick or a wooden stick. The cells are mostly derived from columnar epithelium and the squamous epithelium. The cervix has two parts – the upper part the columnar epithelium and the lower part the squamous epithelium. The specimen is smeared onto a glass slide and is stained using Papanicolaou method so that the components of the cells are highlighted with specific colours.The Pap smear database consists of 917 such microscopic images collected for different cases from different locations. 
 
 
 # Pre-Processing 
@@ -60,6 +59,17 @@ Use train.py to start training. The following are the arguments that can be pass
 **Abhinaav Ramesh, Akshaya Sapthasri M, Anusha V, Nivetha S**
 
 Department of Biomedical Engineering, PSG College of Technology
+
+**Contact Details** - contactabhinaav@gmail.com, https://www.linkedin.com/in/abhinaav-ramesh/ 
+
+
+# Reference Articles
+
+1. M. Mohideen Fatima alias Niraimathi, Dr V.Seenivasagam, A hybrid Image Segmentation of a Cervical Cells by Bi-group enhancement and Scan line filling, International Journal of Computer Science and Information Technology and security,vol 2,No 2, April 2012,pp 368-375. 
+2. N.M Harand, S, Sadri, N. A. Moghaddam, R.Amirfattahi, An Automatic Method for Segmentation of epithelial cervical cells in Images of Thin Prep, Journal of medical systems 34(6)2010,pp1043-1054.  
+3. M.E Plissiti, C. Nikou, A. Charchanti, Automated detection of cell Nuclei in Pap smear images Using Morphological Reconstruction and Clustering, IEEE Transaction on information technology in Biomedicine 15(2) 2011,pp 233-241 
+4. S,-F. Yang-Mao, Y,-K. Chan, Y,-P, Chu ,Edge Enhancement Nucleus and Cytoplasm Detection of cervical smear images ,IEEE Transactions on systems, Man, and Cybernetics part B, Cybernetics 38(2),2008, 353-366.  
+5. Simon Jegau et al, “The One Hundred Layers Tiramisu: Fully Convolutional DenseNets for Semantic Segmentation”  
 
 **Reference CodeBase**
 https://github.com/GeorgeSeif/Semantic-Segmentation-Suite.git
