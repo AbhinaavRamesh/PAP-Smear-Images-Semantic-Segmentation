@@ -4,7 +4,7 @@ Pap smear images require very efficient segmentation techniques to improve the p
 
 
 # Papnicolaou Smear Images -PAP Smear Test
-A Pap (-anicoalau) smear is used to screen for cervical cancer. The presence of pre-cancerous or cancerous cells on the cervix can be detected using this test. A precancerous cell is one in which the genetic information has been modified and exhibits abnormal cell division. A cancerous cell is one in which the cell is devoid of cytoplasm. This procedure is usually carried out in women who are in the age group of 21- 65 years. The pap cells are obtained from different areas of the cervix using cyto-brush, cotton stick or a wooden stick. The cells are mostly derived from columnar epithelium and the squamous epithelium. The cervix has two parts – the upper part the columnar epithelium and the lower part the squamous epithelium. The specimen is smeared onto a glass slide and is stained using Papanicolaou method so that the components of the cells are highlighted with specific colours.The Pap smear database consists of 917 such microscopic images collected for different cases from different locations. 
+A Pap (-anicoalau smear is used to screen for cervical cancer. The presence of pre-cancerous or cancerous cells on the cervix can be detected using this test. A precancerous cell is one in which the genetic information has been modified and exhibits abnormal cell division. A cancerous cell is one in which the cell is devoid of cytoplasm. This procedure is usually carried out in women who are in the age group of 21- 65 years. The pap cells are obtained from different areas of the cervix using cyto-brush, cotton stick or a wooden stick. The cells are mostly derived from columnar epithelium and the squamous epithelium. The cervix has two parts – the upper part the columnar epithelium and the lower part the squamous epithelium. The specimen is smeared onto a glass slide and is stained using Papanicolaou method so that the components of the cells are highlighted with specific colours.The Pap smear database consists of 917 such microscopic images collected for different cases from different locations. 
 
 
 # Pre-Processing 
@@ -13,9 +13,33 @@ The segmentation of cells from the Pap smear is difficult even for trained cyto-
 The available database is enlarged by means of horizontal and vertical flipping of images. At the end of preprocessing, the enlarged datasets of the input and the target images were available for the training process. 
 
 
+# Instructions to Execute
+
+The various versions of the image database, original, only preprocessed and preprocessed + augmented are included in this repo. In case of adding more classes or increasing the augmented image count,use preprocessing jupyter notebook.
+
+Use train.py to start training. The following are the arguments that can be passed on to the training script.
+
+**--num_epochs** , default=10, 'Number of epochs to train for'
+**--epoch_start_i**, default=0, 'Start counting epochs from this number'
+**--checkpoint_step**, default=1, 'How often to save checkpoints (epochs)'
+**--validation_step**, default=1, 'How often to perform validation (epochs)'
+**--image**, default=None, 'The image you want to predict on. Only valid in "predict" mode.'
+**--continue_training**, default=False, 'Whether to continue training from a checkpoint'
+**--dataset**, default="PAP", 'Dataset you are using.'
+**--crop_height**, default=128, 'Height of cropped input image to network'
+**--crop_width**, default=128, 'Width of cropped input image to network'
+**--batch_size**, default=1, 'Number of images in each batch'
+**--num_val_images**, default=913 , 'The number of images to used for validations'
+**--h_flip**, default=False, 'Whether to randomly flip the image horizontally for data augmentation'
+**--v_flip**, default=False, 'Whether to randomly flip the image vertically for data augmentation'
+**--brightness**, default=None, 'Whether to randomly change the image brightness for data augmentation. Specifies the max bightness change as a factor between 0.0 and 1.0. For example, 0.1 represents a max brightness change of 10%% (+-).'
+**--rotation**, default=None, 'Whether to randomly rotate the image for data augmentation. Specifies the max rotation angle in degrees.'
+**--model**, default="FC-DenseNet56", 'The model you are using. See model_builder.py for supported models'
+**--frontend**, default="ResNet101", 'The frontend you are using. See frontend_builder.py for supported models'
+
 # Team
 
-Abhinaav Ramesh, Akshaya Sapthasri M, Anusha V, Nivetha S
+**Abhinaav Ramesh, Akshaya Sapthasri M, Anusha V, Nivetha S**
 
 Department of Biomedical Engineering
 
