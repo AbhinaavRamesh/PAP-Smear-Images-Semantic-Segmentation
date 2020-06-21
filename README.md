@@ -66,9 +66,7 @@ The performance metrics of the trained model after 1660 epochs are represented i
 
 ![Alt text](PAP_Results/Overall_Accuracy.jpeg?raw=true "Accuracy Plot")
 
-![Alt text](PAP_Results/Overall_Accuracy.jpeg?raw=true "Accuracy Plot")
-
-![Alt text](PAP_Results/Accuracy_Within Class.png?raw=true "Within Class Accuracy")
+![Alt text](PAP_Results/Accuracy_WithinClass.png?raw=true "Within Class Accuracy")
 
 # Team
 
