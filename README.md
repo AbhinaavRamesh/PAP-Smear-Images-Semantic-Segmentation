@@ -1,5 +1,5 @@
 # Segmentation of Nucleus and Cytoplasm from Unit Papanicolaou Smear Images using Deep Semantic Networks
-# Team
+# # Team
 **Abhinaav Ramesh, Akshaya Sapthasri M, Anusha V, Nivetha S**
 Department of Biomedical Engineering
 PSG College of Technology
