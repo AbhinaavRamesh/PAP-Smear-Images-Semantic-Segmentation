@@ -55,6 +55,8 @@ Use train.py to start training. The following are the arguments that can be pass
 
 17. **--frontend**, default="ResNet101", 'The frontend you are using. See frontend_builder.py for supported models'
 
+# Team
+
 **Abhinaav Ramesh, Akshaya Sapthasri M, Anusha V, Nivetha S**
 
 Department of Biomedical Engineering, PSG College of Technology
