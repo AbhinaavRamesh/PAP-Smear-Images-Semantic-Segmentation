@@ -58,9 +58,18 @@ Use train.py to start training. The following are the arguments that can be pass
 
 **Abhinaav Ramesh, Akshaya Sapthasri M, Anusha V, Nivetha S**
 
-Department of Biomedical Engineering
+Department of Biomedical Engineering, PSG College of Technology
 
-PSG College of Technology
+**Contact Details** - contactabhinaav@gmail.com, https://www.linkedin.com/in/abhinaav-ramesh/ 
+
+
+# Reference Articles
+
+1. M. Mohideen Fatima alias Niraimathi, Dr V.Seenivasagam, A hybrid Image Segmentation of a Cervical Cells by Bi-group enhancement and Scan line filling, International Journal of Computer Science and Information Technology and security,vol 2,No 2, April 2012,pp 368-375. 
+2. N.M Harand, S, Sadri, N. A. Moghaddam, R.Amirfattahi, An Automatic Method for Segmentation of epithelial cervical cells in Images of Thin Prep, Journal of medical systems 34(6)2010,pp1043-1054.  
+3. M.E Plissiti, C. Nikou, A. Charchanti, Automated detection of cell Nuclei in Pap smear images Using Morphological Reconstruction and Clustering, IEEE Transaction on information technology in Biomedicine 15(2) 2011,pp 233-241 
+4. S,-F. Yang-Mao, Y,-K. Chan, Y,-P, Chu ,Edge Enhancement Nucleus and Cytoplasm Detection of cervical smear images ,IEEE Transactions on systems, Man, and Cybernetics part B, Cybernetics 38(2),2008, 353-366.  
+5. Simon Jegau et al, “The One Hundred Layers Tiramisu: Fully Convolutional DenseNets for Semantic Segmentation”  
 
 **Reference CodeBase**
 https://github.com/GeorgeSeif/Semantic-Segmentation-Suite.git
